@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PIntroductionToOOP", "PIntr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Distance", "Distance\Distance.vcxproj", "{F60AF14A-A767-4AE4-A9E3-A1224886576B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fraction", "Fraction\Fraction.vcxproj", "{C3FA5FE1-EC38-4A76-8705-46116CD4E9E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{F60AF14A-A767-4AE4-A9E3-A1224886576B}.Release|x64.Build.0 = Release|x64
 		{F60AF14A-A767-4AE4-A9E3-A1224886576B}.Release|x86.ActiveCfg = Release|Win32
 		{F60AF14A-A767-4AE4-A9E3-A1224886576B}.Release|x86.Build.0 = Release|Win32
+		{C3FA5FE1-EC38-4A76-8705-46116CD4E9E8}.Debug|x64.ActiveCfg = Debug|x64
+		{C3FA5FE1-EC38-4A76-8705-46116CD4E9E8}.Debug|x64.Build.0 = Debug|x64
+		{C3FA5FE1-EC38-4A76-8705-46116CD4E9E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{C3FA5FE1-EC38-4A76-8705-46116CD4E9E8}.Debug|x86.Build.0 = Debug|Win32
+		{C3FA5FE1-EC38-4A76-8705-46116CD4E9E8}.Release|x64.ActiveCfg = Release|x64
+		{C3FA5FE1-EC38-4A76-8705-46116CD4E9E8}.Release|x64.Build.0 = Release|x64
+		{C3FA5FE1-EC38-4A76-8705-46116CD4E9E8}.Release|x86.ActiveCfg = Release|Win32
+		{C3FA5FE1-EC38-4A76-8705-46116CD4E9E8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
