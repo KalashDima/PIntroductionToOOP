@@ -25,7 +25,7 @@ public:
 	{
 		this->y = y;
 	}
-	double distance(Point other)
+	double distance(Point other) const
 	{
 		double x_distance = this->x - other.x;
 		double y_distance = this->y - other.y;
@@ -40,11 +40,11 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	Point A;
-	A.set_x(2);
-	A.set_y(3);
+	A.set_x(10);
+	A.set_y(8);
 	Point B;
-	B.set_x(7);
-	B.set_y(8);
+	B.set_x(8);
+	B.set_y(10);
 
 	cout << "Расстояние от 'А' до 'В': " << A.distance(B) << endl;
 	cout << "Расстояние от точки 'А' до точки 'В': " << distance(A, B) << endl;
